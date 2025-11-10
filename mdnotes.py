@@ -3,7 +3,7 @@ import glob
 
 def note_paths(vault_root,file_name):
     """
-    Returns a list of paths containing the text provided in file_name.
+    Returns a list of paths from vault_root containing file_name.
 
         vault_root : string
             Path to the Obsidian vault's root directory.
