@@ -1,0 +1,27 @@
+{
+  "documents": {
+    "src": "C:\\Users\\robtf04\\Documents",
+    "dest": "F:\\robuser\\Documents"
+  },
+  "satisfactory": {
+    "src": "C:\\Users\\robtf04\\AppData\\Local\\FactoryGame\\Saved\\SaveGames",
+    "dest": "F:\\robuser\\Satisfactory"
+  },
+  "robdata": {
+    "src": "D:\\robdata",
+    "dest": "F:\\robdata"
+  },
+  "archive": {
+    "src": "D:\\robarchive\\archive_current",
+    "dest": "F:\\robarchive"
+  },
+  "minecraft": {
+    "src": "C:\\Users\\robtf04\\AppData\\Roaming\\.minecraft",
+    "dest": "F:\\robuser\\Minecraft"
+  },
+   "appdata": {
+    "src": "C:\\Users\\robtf04\\AppData",
+    "dest": "F:\\robuser\\AppData"
+  } 
+  
+}
