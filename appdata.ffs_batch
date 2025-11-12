@@ -7,10 +7,7 @@
         <IgnoreTimeShift/>
     </Compare>
     <Synchronize>
-        <Changes>
-            <Left Create="right" Update="right" Delete="right"/>
-            <Right Create="left" Update="left" Delete="left"/>
-        </Changes>
+        <Differences LeftOnly="right" LeftNewer="right" RightNewer="right" RightOnly="right"/>
         <DeletionPolicy>RecycleBin</DeletionPolicy>
         <VersioningFolder Style="Replace"/>
     </Synchronize>
@@ -26,6 +23,9 @@
             <Item>*\thumbs.db</Item>
             <Item>\Local\Microsoft\</Item>
             <Item>\Local\Comms\</Item>
+            <Item>\Local\Packages\</Item>
+            <Item>\Local\NVIDIA\</Item>
+            <Item>\Local\Programs\</Item>
         </Exclude>
         <SizeMin Unit="None">0</SizeMin>
         <SizeMax Unit="None">0</SizeMax>
